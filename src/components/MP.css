@@ -1,0 +1,162 @@
+Style for the RestaurantMenu component
+
+/* Styling for the overall container */
+.restaurant-menu-container {
+  padding: 30px;
+
+  margin: auto;
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f7f7f7;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Restaurant title styling */
+.restaurant-title {
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Restaurant image styling */
+.restaurant-image {
+  width: 38%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-top: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Restaurant details styling */
+.restaurant-details {
+  margin-top: 5px;
+  font-size: 20px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.restaurant-detail-item {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* Menu title styling */
+.menu-title {
+  font-size: 28px;
+  margin: 30px 0 10px;
+  color: #ff6347;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Styling for the menu list */
+.menu-items {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+/* Menu item information */
+.menu-item-info h4 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.menu-item-info p {
+  font-size: 16px;
+  color: #888;
+  font-weight: 500;
+}
+
+/* Menu item image styling */
+.menu-item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+/* Button styling */
+.add-item-button {
+  background-color: #ff6347;
+  font-size: 16px;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-item-button:hover {
+  background-color: #ff4500;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .restaurant-menu-container {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .restaurant-title {
+    font-size: 28px;
+  }
+
+  .menu-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-item-image {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+/* Styling for the Buy button */
+.buy-button {
+  background-color: #28a745; /* Green color */
+  color: white;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 20px;
+  display: block;
+  width: 20%;
+  text-align: center;
+}
+
+.buy-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}

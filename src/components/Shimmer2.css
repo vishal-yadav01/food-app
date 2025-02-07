@@ -1,0 +1,64 @@
+/* General Shimmer container */
+.shimmer-restaurant-menu {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #f7f7f7;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: shimmer 1.5s infinite linear;
+}
+
+.shimmer-restaurant-title,
+.shimmer-restaurant-details,
+.shimmer-menu-item {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  width: 100%;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-restaurant-title {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.shimmer-restaurant-image {
+  width: 50%;
+  height: 200px;
+  background-color: #e0e0e0;
+  margin: auto;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.shimmer-restaurant-details {
+  height: 80px;
+}
+
+.shimmer-menu-item {
+  height: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+}

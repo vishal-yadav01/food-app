@@ -1,0 +1,160 @@
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border: 2px solid black;
+}
+.nav-items > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+  width: 300px;
+}
+.nav-items > ul > li {
+  padding: 15px;
+}
+
+.logo {
+  width: 180px;
+}
+
+.card {
+  width: 190px;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 8px;
+  margin: 8px;
+  height: 260px;
+  font-size: 14px;
+}
+
+.card > img {
+  width: 100%;
+  height: 120px;
+  border-radius: 3px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card > img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.12);
+}
+
+.restron-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shimmer-cards {
+  width: 190px;
+  height: 200px;
+  background-color: lightgray;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 3px;
+} */
+
+/* Header Styles */
+/* Header Styles */
+.header {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-items ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items ul li {
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+
+.logo {
+  height: 60px;
+}
+
+/* Search Section */
+.search-container {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  background-color: #ff4b4b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Top Rated Menu Section */
+.restron-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjusted alignment for better spacing */
+  padding: 20px;
+}
+
+.card {
+  width: 220px; /* Reduced the width */
+  margin: 10px;
+  padding: 15px; /* Reduced padding */
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 150px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure the image fits nicely */
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  font-size: 1.2rem; /* Smaller text size */
+  color: #333;
+}
+
+.card h4 {
+  margin: 8px 0;
+  font-size: 0.9rem; /* Smaller text size */
+  color: #777;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+}

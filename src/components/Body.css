@@ -1,0 +1,18 @@
+/* Body.css */
+
+.restron-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.restron-list a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Use inherited text color */
+}
+
+.restron-list a:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  transition: transform 0.2s; /* Smooth transition */
+}

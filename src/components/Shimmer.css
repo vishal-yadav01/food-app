@@ -1,0 +1,53 @@
+/* Shimmer.css */
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Space between cards */
+  padding: 20px;
+}
+
+.shimmer-card {
+  background-color: #f0f0f0; /* Background for the shimmer card */
+  border-radius: 8px;
+  width: 220px; /* Width of each card */
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.shimmer-image {
+  width: 100%;
+  height: 120px; /* Height for the image placeholder */
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  border-radius: 8px;
+  animation: shimmer 1.5s infinite;
+}
+
+.shimmer-text {
+  margin: 10px 0;
+  height: 12px; /* Height of the shimmer text */
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  border-radius: 4px;
+  animation: shimmer 1.5s infinite;
+}
+
+.shimmer-title {
+  width: 60%; /* Width of the title */
+}
+
+.shimmer-description {
+  width: 80%; /* Width of the description */
+}
+
+.shimmer-rating {
+  width: 30%; /* Width of the rating */
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: 200px 0;
+  }
+}

@@ -1,0 +1,30 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allows wrapping if too many items */
+  gap: 20px; /* Space between cards */
+  padding: 20px;
+}
+
+.clear-cart-btn {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 20px;
+}
+
+.clear-cart-btn:hover {
+  background-color: #ff7875;
+}
+
+.empty-cart-message {
+  font-size: 2rem;
+  color: #555;
+  text-align: center;
+  margin-top: 50px;
+}
