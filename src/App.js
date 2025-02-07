@@ -18,7 +18,7 @@ import Cart from "./components/Cart";
 // import Chili from "./components/Chili";
 // import Instamart from "./components/Instamart";
 
-//* lazy loaidng
+
 const Instamart = lazy(() => import("./components/Instamart"));
 
 //* AppLayout
